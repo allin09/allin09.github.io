@@ -1,2 +1,10 @@
 baseurl: /allin09.github.io
-pygments: true 
+pygments: true
+markdown: rdiscount
+permalink: /:year/:month/:day/:title/
+url: https://allin09.github.io/
+author: nswebfrog
+highlighter: pygments
+exclude: ["Rakefile", "CNAME", "README.md"]
+safe: true
+paginate: 6
