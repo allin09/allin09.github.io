@@ -2,3 +2,4 @@ baseurl: /allin09.github.io
 pygments: true
 url: https://allin09.github.io/
 safe: true
+markdown: kramdown
