@@ -1,42 +1,23 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Allin09.GitHub.io by allin09</title>
+---
+layout: default
+---
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Allin09.GitHub.io</h1>
-        <p>111</p>
+<div class="home">
 
+  <h1 class="page-heading">Posts</h1>
+<a class="post-link" href="/jekyll/update/2016/12/28/hello-blog.html">123</a>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <p class="view"><a href="https://github.com/allin09">View My GitHub Profile</a></p>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-      </header>
-      <section>
-        <h3>
-<a id="121323" class="anchor" href="#121323" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="/jekyll/update/2015/12/28/welcome-to-jekyll.html">121323</a>
-</h3>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-<p>1211</p>
-
-<h3>
-<a id="hello-blog" class="anchor" href="#hello-blog" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="/jekyll/update/2016-12-28-hello-blog.html">hello blog</a>
-</h3>
-
-<p>43</p>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
-</html>
+</div>
