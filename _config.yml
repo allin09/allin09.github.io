@@ -3,3 +3,4 @@ pygments: true
 url: https://allin09.github.io/
 safe: true
 markdown: kramdown
+permalink: /:year/:month/:day/:title/
