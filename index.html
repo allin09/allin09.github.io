@@ -3,9 +3,16 @@ layout: default
 ---
 
 <div class="home">
-
+{% for category in site.categories %}
+	<h2>{{ category | first }}</h2>
+	</span>{{ category | last | size }}</span>
+	<ul class="arc-list">
+		{% for post in category.last %}
+		<li>{{ post.date | date:"%d/%m/%Y"}}<a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% endfor %}
+	</ul>
+	{% endfor %}
   <h1 class="page-heading">Posts</h1>
-<a class="post-link" href="/jekyll/update/2016/12/28/hello-blog.html">123</a>
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
