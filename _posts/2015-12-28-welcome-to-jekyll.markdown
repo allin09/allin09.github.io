@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "qunit 判断三角形测试用例!"
 date:   2015-12-28 20:03:02 +0800
 categories: [test, sample]
 ---
