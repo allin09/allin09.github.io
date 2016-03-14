@@ -10,8 +10,8 @@ categories: [test, sample]
 	<head>
 		<meta charset="UTF-8">
 		<title>QUnit Test Suite</title>
-		<link rel="stylesheet" href="qunit-1.22.0.css">
-		<script src="qunit-1.22.0.js"></script>
+		<link rel="stylesheet" href="../../../../../css/qunit-1.22.0.css">
+		<script src="../../../../../js/qunit-1.22.0.js"></script>
 	</head>
 
 	<body>
