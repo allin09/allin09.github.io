@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "常用命令"
+date:   2016-12-28 20:03:02 +0800
+categories: jekyll update
+---
+
 覆盖文本内容
 echo nameserver 8.8.8.8 > /etc/resolv.conf
 
